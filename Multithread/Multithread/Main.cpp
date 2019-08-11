@@ -11,7 +11,7 @@ void CallThread(int id)
 	mtx.lock();
 	//display
 	cout << "Launched by thread" << id << endl;
-	//unluck so more can run
+	//unlock so more can run
 	mtx.unlock();
 }
 int main()
